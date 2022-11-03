@@ -1,11 +1,10 @@
 <template>
   <div v-if="video">
     <br>
-    <iframe width="320" height="160" :src="videoUrl"></iframe>
+    <iframe width="480" height="240" :src="videoUrl"></iframe>
     <hr>
     <h3>{{ video.snippet.title }}</h3>
     <p>{{ video.snippet.description }}</p>
-    <hr>
   </div>
 </template>
 

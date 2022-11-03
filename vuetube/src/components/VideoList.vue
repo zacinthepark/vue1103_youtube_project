@@ -1,5 +1,5 @@
 <template>
-  <div class="videoList">    
+  <div class="videoList">
     <ul>
       <video-list-item 
         v-for="video in videos"
@@ -36,6 +36,7 @@ export default {
 
 <style>
   .videoList {
+      margin: 20px auto;
       border: 2px solid black;
     }
 </style>
